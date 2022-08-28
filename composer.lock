@@ -1,0 +1,120 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d965c4dfe901c99df1a09d8cd55e9993",
+    "packages": [
+        {
+            "name": "ilyaotinov/command",
+            "version": "v1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ilya372317/command.git",
+                "reference": "84bad1705e395d08195011b4fd2e08dbcdfa86de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ilya372317/command/zipball/84bad1705e395d08195011b4fd2e08dbcdfa86de",
+                "reference": "84bad1705e395d08195011b4fd2e08dbcdfa86de",
+                "shasum": ""
+            },
+            "require": {
+                "ext-yaml": "*",
+                "psr/container": "^2.0.2"
+            },
+            "bin": [
+                "src/Resources/bin/xaduken"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Command\\Test\\": "app/Command/",
+                    "Ilyaotinov\\CLI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ilya Otinov",
+                    "email": "ilya.otinov@gmail.com"
+                }
+            ],
+            "description": "Library for make and run CLI commands",
+            "support": {
+                "email": "ilya.otinov@gmail.com",
+                "issues": "https://github.com/ilya372317/command/issues",
+                "source": "https://github.com/ilya372317/command/tree/v1.0.9"
+            },
+            "time": "2022-08-28T10:04:11+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
+            },
+            "time": "2021-11-05T16:47:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-yaml": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

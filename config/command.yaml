@@ -1,0 +1,5 @@
+commands:
+  InformationCommand:
+    class: App\Command\InformationCommand
+    name: command-info
+    description: print passed arguments and options with values.
